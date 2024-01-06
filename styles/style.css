@@ -55,11 +55,20 @@ body {
   padding-bottom: 130px;
 }
 
+.person {
+  /* position: relative; */
+
+  /* width: 527px;
+  height: 527px; */
+  border-radius: 50%;
+  background: rgba(241, 91, 34, 0.2);
+}
+
 .main-text-section {
   text-align: left;
   padding-right: 450px;
   padding-left: 87px;
-  padding-top: 370px;
+  padding-top: 170px;
 }
 
 .main-title {
@@ -85,4 +94,82 @@ body {
 
 .main-list-li {
   margin-bottom: 8px;
+}
+
+/* Plan Section Style */
+.plan-title {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.task-container {
+  display: flex;
+  /* align-items: center; */
+  gap: 209px;
+  padding-left: 330px;
+  padding-right: 289px;
+  padding-bottom: 135px;
+}
+
+.task-logo {
+  padding-top: 26px;
+}
+
+.task-title {
+  margin-top: 20px;
+  color: #151414;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.task-message {
+  color: #737272;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 16px;
+}
+
+/* Positive BG style */
+
+.positive-bg {
+  background-image: url("../images/watch.png");
+  /* linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%);
+  border-radius: 8px; */
+  /* background-image: url("../images/gradient3.png"),
+    linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%); */
+  background-repeat: no-repeat;
+  width: 1140px;
+  height: 300px;
+  background-position: center;
+  /* background-size: cover; */
+  padding-left: 330px;
+  padding-right: 230px;
+  padding-bottom: 130px;
+}
+
+.positive-title {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 59px;
+  padding-left: 64px;
+  padding-right: 617px;
+}
+
+.positive-contact {
+  border-radius: 5px;
+  background: #fff;
+  border: none;
+  padding: 21px 36px;
+  color: #f15b22;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.positive-button {
+  padding: 0px 916px 59px 64px;
+  margin-top: 24px;
 }
