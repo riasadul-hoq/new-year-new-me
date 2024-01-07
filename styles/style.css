@@ -108,9 +108,13 @@ body {
   display: flex;
   /* align-items: center; */
   gap: 209px;
-  padding-left: 330px;
+  padding-left: 230px;
   padding-right: 289px;
   padding-bottom: 135px;
+}
+
+.task {
+  align-content: center;
 }
 
 .task-logo {
@@ -172,4 +176,89 @@ body {
 .positive-button {
   padding: 0px 916px 59px 64px;
   margin-top: 24px;
+}
+
+/* Footer Style */
+
+.footer-container {
+  display: flex;
+  gap: 500px;
+  /* padding-top: 130px; */
+  padding-left: 230px;
+  padding-right: 230px;
+  background-color: #151414;
+}
+
+.footer-title {
+  padding-top: 100px;
+  color: #f8f8f8;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.footer-text {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+#footer-text-1 {
+  margin-top: 16px;
+}
+
+#phone {
+  margin-bottom: 32px;
+}
+
+.subscribe-title {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  padding-top: 130px;
+  padding-right: 431px;
+}
+
+/* .email {
+  border-radius: 8px;
+  border: 1px solid #fff;
+  /* color: #f3f3f3; */
+
+/* font-size: 18px;
+
+  font-weight: 400;
+  padding-right: 229px;
+  width: 325px;
+  height: 64px;
+} */
+*/ .subscribe-button {
+  padding: 0px 383px 243px 0px;
+  margin-top: 16px;
+}
+
+.subscribe-text {
+  border-radius: 8px;
+  background: #fff;
+  border: none;
+  padding: 20px 36px;
+  color: #f15b22;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.email-box {
+  padding-right: 229px;
+  margin-top: 31px;
+  margin-bottom: 16px;
+}
+
+#email {
+  border-radius: 8px;
+  background: #151414;
+  border: 1px solid #fff;
+  color: #f3f3f3;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 21px 100px 22px 21px;
 }
